@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    
+</head>
+    
+<body>
+
+    <svg></svg>
+
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        
+        <script>
+            
+            d3.select('svg')
+                .attr('height', 600)
+                .attr('width', 400)
+            
+            d3.select('svg')
+                .attr('height', 600)
+                .attr('width', 400)
+                .append('rect')
+                .attr('width', 100)
+                .attr('height', 200)
+                .attr('x', 20)
+                .attr('y', 200)
+                .style('fill', 'green')
+            
+            
+            d3.select('svg')
+                .append('rect')
+                .attr('width', 100)
+                .attr('height', 300)
+                .attr('x', 130)
+                .attr('y', 100)
+                .style('fill', 'green')
+            
+            d3.select('svg')
+                .append('rect')
+                .attr('width', 100)
+                .attr('height', 380)
+                .attr('x', 240)
+                .attr('y', 20)
+                .style('fill', 'green')
+            
+            d3.select('svg')
+                .append('line')
+                .attr('x1', 10)
+                .attr('y1', 400)
+                .attr('x2', 10)
+                .attr('y2', 10)
+                .style('stroke', 'black')
+            
+            d3.select('svg')
+                .append('line')
+                .attr('x1', 10)
+                .attr('y1', 400)
+                .attr('x2', 400)
+                .attr('y2', 400)
+                .style('stroke', 'black')
+            
+            d3.select('svg')
+                .append('text')
+                .attr('x', 60)
+                .attr('y', 420)
+                .text('A')
+            
+            d3.select('svg')
+                .append('text')
+                .attr('x', 180)
+                .attr('y', 420)
+                .text('B')
+            
+            d3.select('svg')
+                .append('text')
+                .attr('x', 290)
+                .attr('y', 420)
+                .text('C')
+            
+        </script>
+    
+</body>
+    
+</html>
