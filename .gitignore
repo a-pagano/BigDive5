@@ -1,3 +1,5 @@
 *.DS_Store
 DataScience/PythonDataScience/*
 *.idea
+Data/*
+DataScience/2ndweek/*
